@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn all about mantis shrimp, their unique features, and how to care for them.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>All About Mantis Shrimp</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>The Incredible Mantis Shrimp</h1>
+    <p>Colorful, powerful, and truly unique ocean dwellers</p>
+  </header>
+
+  <nav>
+    <a href="Mantis Shrimps.html" class="active">Home</a>
+    <a href="Owning A Mantis Shrimp.html">Owning A Mantis Shrimp</a>
+    <a href="https://www.thatpetplace.com/aquarium-livestock/saltwater-invertebrates/live-saltwater-shrimp/live-mantis-shrimp">Buy A Mantis Shrimp</a>
+  </nav>  
+
+  <main>
+    <section>
+      <h2>What is a Mantis Shrimp?</h2>
+      <p>The mantis shrimp is a marine crustacean known for its vibrant colors and powerful claws. Despite its name, it is not actually a shrimp, nor a mantis—but a member of the order Stomatopoda. There are two different types of mantis shrimp, one type uses club like fists to attack their prey, while the other uses spears to stab their prey.</p>
+      <img src="https://images.nature.com/lw1200/magazine-assets/d41586-025-00386-8/d41586-025-00386-8_50606708.jpg" alt="Colorful mantis shrimp in an aquarium">
+    </section>
+
+    <section>
+      <h2>Vision Like No Other</h2>
+      <p>Mantis shrimp have some of the most complex eyes in the animal kingdom. They can see ultraviolet, infrared, and polarized light, with up to 16 types of photoreceptor cells (humans have only 3).</p>
+      <img src="https://www.thoughtco.com/thmb/flgRq8KpSX753RnvJHQYleHL9sw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peacock-mantis-shrimp--odontodactylus-scyllarus--eyes-843437902-5c28bf35c9e77c00010c886a.jpg" alt="Close-up of mantis shrimp eye">
+    </section>
+
+    <section>
+      <h2>Punch Power</h2>
+      <p>They strike with the speed of a bullet, using club-like appendages to deliver blows that can break glass. Their punches can reach speeds of 50 mph (80 kph) and accelerate faster than a bullet from a handgun.</p>
+      <img src="https://images.newscientist.com/wp-content/uploads/2018/10/17171757/182947_web.jpg" alt="Mantis shrimp ready to strike">
+    </section>
+
+    <section>
+      <h2>Fun Facts</h2>
+      <ul>
+        <li>Mantis shrimp have been around for over 400 million years.</li>
+        <li>They are sometimes kept in aquariums—but only acrylic ones!</li>
+        <li>Some species “spear” their prey, while others “club” them.</li>
+        <li>Mantis shrimp can punch with a force of 1,500 newtons.</li>
+        <li>They can recognise individual shrimp and remember the past encounters.</li>
+        <li>They tipically live for 3 to 6 years, but somes species can live for up to 20 years in the wild.</li>
+      </ul>
+    </section>
+  </main>
+
+  <a id="back-to-top" role="button" aria-label="Scroll back to top">Back to top</a>
+
+  <footer id="site-footer">
+    <p>2025 Mantis Shrimp Wonders</p>
+  </footer>
+
+  <script>
+    const backToTopButton = document.getElementById('back-to-top');
+  
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+  
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
